@@ -4,7 +4,7 @@
  <title>Matthew Jones</title>
  <link href="http://www.geekle.id.au/atom.xml" rel="self"/>
  <link href="http://www.geekle.id.au/"/>
- <updated>2013-01-13T16:13:46+11:00</updated>
+ <updated>2013-01-13T20:32:22+11:00</updated>
  <id>http://www.geekle.id.au</id>
  <author>
    <name>Matthew Jones</name>
@@ -61,7 +61,7 @@
    <updated>2011-11-16T00:00:00+11:00</updated>
    <id>http://www.geekle.id.au/2011/11/devops-at-rea-enhancing-culture</id>
    <content type="html">&lt;p&gt;Last night I discussed &amp;#8220;Devops at REA&amp;#8221; at the &lt;a href='http://www.meetup.com/devops-melbourne'&gt;Devops Melbourne&lt;/a&gt; meetup. It was a great turnout, with some great conversions afterwards. The next meetup is tentatively scheduled for January 2012 and I would really like to hear from smaller businesses and how they are practicing devops.&lt;/p&gt;
-&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/10175480' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-melbourne-presentation'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
+&lt;iframe marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/10175480' marginheight='0' scrolling='no' width='425' height='355' frameborder='0'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-melbourne-presentation'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
 &lt;p&gt;You can view more of my presentations on &lt;a href='http://www.slideshare.net/geekle'&gt;SlideShare&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
@@ -71,7 +71,7 @@
    <updated>2011-07-25T00:00:00+10:00</updated>
    <id>http://www.geekle.id.au/2011/07/devops-down-under-2011-open-space</id>
    <content type="html">&lt;p&gt;Slides from my open space talk at &lt;a href='http://devopsdownunder.org'&gt;Devops Down Under 2011&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/8667326' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/kanban-in-operations'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
+&lt;iframe marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/8667326' marginheight='0' scrolling='no' width='425' height='355' frameborder='0'&gt;&lt;a href='http://www.slideshare.net/geekle/kanban-in-operations'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
 &lt;p&gt;You can view more of my presentations on &lt;a href='http://www.slideshare.net/geekle'&gt;SlideShare&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
@@ -84,7 +84,7 @@
 
 &lt;p&gt;Three months ago I joined the Site Operations team at realestate.com.au and I was pleased to see that the team were using a card wall for work.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='Card Wall' src='http://techblog.realestate.com.au/wp-content/uploads/0-cardwall.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='http://techblog.realestate.com.au/wp-content/uploads/0-cardwall.jpg' alt='Card Wall' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Although the physical card wall proved to be a great place to have stand ups and manage work, it had its problems:&lt;/p&gt;
 
@@ -106,11 +106,11 @@
 
 &lt;p&gt;To get the trial up and running as soon as possible, we utilised our existing Jira installation with Greenhopper. The project setup and configuration was kept to a bare minimum. We created five new issue types, based on the cards on our physical wall – Service Requests, Deployment, Provisioning, Housekeeping and Faults.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/1-cardtypeimage.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='http://techblog.realestate.com.au/wp-content/uploads/1-cardtypeimage.jpg' alt='' /&gt;&lt;/p&gt;
 
 &lt;p&gt;A week before the trial commenced, we manually imported the cards into Jira and wrote the Jira issue number on the cards. During that week we also duplicated the any new physical cards into Jira. This allowed us to start tracking behaviour before we started the trial.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/2-cardimage.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='http://techblog.realestate.com.au/wp-content/uploads/2-cardimage.jpg' alt='' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Our virtual card wall is tactile. Stand ups would now be conducted in front of a Smart Board, which allowed us to interact with Greenhopper using our fingers as the mouse.&lt;/p&gt;
 
@@ -118,7 +118,7 @@
 
 &lt;p&gt;The trial kicked off on Friday 8th July at 0900, we had our regular stand up with the exception of the new virtual card wall.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/3-standup.jpg' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='http://techblog.realestate.com.au/wp-content/uploads/3-standup.jpg' alt='' /&gt;&lt;/p&gt;
 
 &lt;p&gt;In addition to Greenhopper, we started a trialling weekly iterations (versions) in Jira – Thursday to Thursday. Although we weren’t planning the iterations, the option is there for participants to put cards into a few iterations later if the card won’t be actioned for a few weeks.&lt;/p&gt;
 
@@ -785,7 +785,7 @@ I plan to release the findings of this survey late January 2011.&lt;/p&gt;
 &lt;p&gt;One of the directors missed the presentation and reviewed it over the weekend and chased me up for a chat. He was specifically interested in the idea of metrics, and the revival of non-functional requirements for our software projects because NFRs are usually “out of scope”. He could really see the business benefit of DevOps, something I found quite refreshing.&lt;/p&gt;
 
 &lt;h2 id='the_presentation'&gt;The Presentation&lt;/h2&gt;
-&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/5348895' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-5348895'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;</content>
+&lt;iframe marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/5348895' marginheight='0' scrolling='no' width='425' height='355' frameborder='0'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-5348895'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;</content>
  </entry>
  
  
