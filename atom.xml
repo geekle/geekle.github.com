@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Matthew Jones</title>
+ <link href="http://www.geekle.id.au/atom.xml" rel="self"/>
+ <link href="http://www.geekle.id.au/"/>
+ <updated>2013-01-13T16:13:46+11:00</updated>
+ <id>http://www.geekle.id.au</id>
+ <author>
+   <name>Matthew Jones</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>Boostrapping the Infrastructure Coders Meetup</title>
+   <link href="http://www.geekle.id.au/2012/07/bootstrapping-infrastructure-coders.html"/>
+   <updated>2012-07-28T00:00:00+10:00</updated>
+   <id>http://www.geekle.id.au/2012/07/bootstrapping-infrastructure-coders</id>
+   <content type="html">&lt;p&gt;Earlier this year, &lt;a href='http://twitter.com/dlutzy'&gt;David Lutz&lt;/a&gt; and I were discussing the lack of an &lt;a href='http://www.infoq.com/presentations/infrastructure-as-code'&gt;infrastructure as code&lt;/a&gt; meetup in &lt;a href='http://www.visitmelbourne.com'&gt;Melbourne&lt;/a&gt;. We sat down and mapped out our vision for the meetup:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Regular meetup - Monthly meetups, held in the second week of every month.&lt;/li&gt;
+
+&lt;li&gt;Technology agnostic - No preference on tools. We want all conversations, from concept to implementation.&lt;/li&gt;
+
+&lt;li&gt;Fresh, relevant content - Being techno-agnostic, this also keeps the content fresh so we had to ensure it is relevant to the meetup.&lt;/li&gt;
+
+&lt;li&gt;Interesting venues - Bad venues can break a meetup. Ensure that the location is comfortable and central to the members.&lt;/li&gt;
+
+&lt;li&gt;Minimal sponsorship - Sponsorship is great, but it doesn&amp;#8217;t mean editorial control. We will accept sponsors, however no sales or marketing talks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Having established our vision, we needed to prove if &lt;a href='http://en.wiktionary.org/wiki/Melbournites'&gt;Melbournites&lt;/a&gt; wanted such a meetup, so we created an &lt;a href='http://meetup.infrastructurecoders.com/'&gt;Infrastructure Coders&lt;/a&gt; meetup and promoted it via Twitter. We had a great response, but it wasn&amp;#8217;t enough. We approached the &lt;a href='http://twitter.com/evanbottcher'&gt;Evan Bottcher&lt;/a&gt; organiser of &lt;a href='http://www.meetup.com/devops-melbourne'&gt;Devops Melbourne&lt;/a&gt; for a short speaker slot to promote Infrastructure Coders and within a few days we doubled our members.&lt;/p&gt;
+
+&lt;p&gt;David and I soon realised we had reached critical mass, so we had a discussion around hosting the meetup. We required a hosting strategy that allowed the meetup to remain free for members; bootstrapping the meetup ourselves, we decided we would find a host for each meetup. The host would be an organisation in Melbourne that recognised the relevance of infrastructure as code, with the value being - we organise the meetup and speakers; they provide food, drinks and a space. Hosts are given a speaking spot, provided it is on topic and it is an opportunity to promote their company. We needed to test this concept, so I approached &lt;a href='http://www.realestate.com.au'&gt;realestate.com.au&lt;/a&gt; to host the inaugural meetup.&lt;/p&gt;
+
+&lt;p&gt;The date was set, drinks were purchased and food was ordered. The first meetup was small and informal, so we took the opportunity for everyone to introduce themselves and what they wanted out of Infrastructure Coders. Afterwards we retired to the kitchen for dinner, where discussions on infrastructure as code continued. We marked the meetup a success and David immediately organised the second host, &lt;a href='http://99designs.com.au'&gt;99designs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So what did we learn from this experience?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have a vision - What is the goal of the meetup? Where do you want to take it?&lt;/li&gt;
+
+&lt;li&gt;Know your audience - What does your audience want? What will they take away from your meetup?&lt;/li&gt;
+
+&lt;li&gt;Validate your meetup - Create an online space where people can register their interest. We used Meetup.com (pricing available &lt;a href='http://www.meetup.com/help/Does-it-cost-money-to-start-a-Meetup-Group/'&gt;here&lt;/a&gt;), but other online event tools, such as &lt;a href='http://www.eventbrite.com'&gt;Eventbrite&lt;/a&gt; would work too.&lt;/li&gt;
+
+&lt;li&gt;Market your meetup - Twitter is a great way of getting the word out. Register an account for your meetup and decide on an &lt;a href='http://twitter.com/search/%23infracoders'&gt;hashtag&lt;/a&gt;. Go to other meetups and promote your meetup.&lt;/li&gt;
+
+&lt;li&gt;Gather feedback - Feedback will allow the meetup to improve organically with your audience. We have had some great, our members really enjoyed going into workplaces of companies in Melbourne. This also allowed the employees of that organisation to stay back and listen to a few talks before heading home.&lt;/li&gt;
+
+&lt;li&gt;From the initial concept to now - we have hosted four meetups, two scheduled for the upcoming months and I am having discussions with organisations for meetups which will book us out until early next year. In addition, I have had discussions with &lt;a href='http://twitter.com/scott_lowe'&gt;Scott Lowe&lt;/a&gt;, to start &lt;a href='http://blog.scottlowe.org/2012/07/22/seeking-feedback-on-infrastructure-coders-denver/'&gt;Infrastructure Coders Denver&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are interested in hosting Infrastructure Coders or starting a new meetup, please get in touch.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops at REA</title>
+   <link href="http://www.geekle.id.au/2011/11/devops-at-rea-enhancing-culture.html"/>
+   <updated>2011-11-16T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2011/11/devops-at-rea-enhancing-culture</id>
+   <content type="html">&lt;p&gt;Last night I discussed &amp;#8220;Devops at REA&amp;#8221; at the &lt;a href='http://www.meetup.com/devops-melbourne'&gt;Devops Melbourne&lt;/a&gt; meetup. It was a great turnout, with some great conversions afterwards. The next meetup is tentatively scheduled for January 2012 and I would really like to hear from smaller businesses and how they are practicing devops.&lt;/p&gt;
+&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/10175480' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-melbourne-presentation'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;You can view more of my presentations on &lt;a href='http://www.slideshare.net/geekle'&gt;SlideShare&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops Down Under 2011 Open Space</title>
+   <link href="http://www.geekle.id.au/2011/07/devops-down-under-2011-open-space.html"/>
+   <updated>2011-07-25T00:00:00+10:00</updated>
+   <id>http://www.geekle.id.au/2011/07/devops-down-under-2011-open-space</id>
+   <content type="html">&lt;p&gt;Slides from my open space talk at &lt;a href='http://devopsdownunder.org'&gt;Devops Down Under 2011&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/8667326' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/kanban-in-operations'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;You can view more of my presentations on &lt;a href='http://www.slideshare.net/geekle'&gt;SlideShare&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Kanban in Operations</title>
+   <link href="http://www.geekle.id.au/2011/07/kanban-in-operations-virtual-card-wall.html"/>
+   <updated>2011-07-22T00:00:00+10:00</updated>
+   <id>http://www.geekle.id.au/2011/07/kanban-in-operations-virtual-card-wall</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;(Cross posted on &lt;a title='Realestate.com.au Tech Blog' href='http://techblog.realestate.com.au/'&gt;realestate.com.au&lt;/a&gt;&amp;#8217;s Tech Blog)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Three months ago I joined the Site Operations team at realestate.com.au and I was pleased to see that the team were using a card wall for work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Card Wall' src='http://techblog.realestate.com.au/wp-content/uploads/0-cardwall.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the physical card wall proved to be a great place to have stand ups and manage work, it had its problems:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have a distributed team. With operations teams in Italy (casa.it) and Luxembourg (athome.lu), people on devops rotations and working from home on occasion makes it hard for them to participate during stand up.&lt;/li&gt;
+
+&lt;li&gt;Data associated with cards such as creation timestamps, creators etc. is dependant on users writing it on the cards.&lt;/li&gt;
+
+&lt;li&gt;Limited external visibility into Site Ops work load. If any one wanted to know what we are currently working on, they would have to head up to the Site Ops area and have a look.&lt;/li&gt;
+
+&lt;li&gt;After a discussion with the team, we decided to trial a virtual card wall.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='scope'&gt;Scope&lt;/h2&gt;
+
+&lt;p&gt;The trial would run for two weeks, replicating the cards on our physical card wall, with a retrospective and decision to continue at the end. The trial would not include capturing incidents or deployments and would be light as possible.&lt;/p&gt;
+
+&lt;h2 id='setup'&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;To get the trial up and running as soon as possible, we utilised our existing Jira installation with Greenhopper. The project setup and configuration was kept to a bare minimum. We created five new issue types, based on the cards on our physical wall – Service Requests, Deployment, Provisioning, Housekeeping and Faults.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/1-cardtypeimage.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;A week before the trial commenced, we manually imported the cards into Jira and wrote the Jira issue number on the cards. During that week we also duplicated the any new physical cards into Jira. This allowed us to start tracking behaviour before we started the trial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/2-cardimage.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our virtual card wall is tactile. Stand ups would now be conducted in front of a Smart Board, which allowed us to interact with Greenhopper using our fingers as the mouse.&lt;/p&gt;
+
+&lt;h2 id='the_trial'&gt;The Trial&lt;/h2&gt;
+
+&lt;p&gt;The trial kicked off on Friday 8th July at 0900, we had our regular stand up with the exception of the new virtual card wall.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://techblog.realestate.com.au/wp-content/uploads/3-standup.jpg' /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to Greenhopper, we started a trialling weekly iterations (versions) in Jira – Thursday to Thursday. Although we weren’t planning the iterations, the option is there for participants to put cards into a few iterations later if the card won’t be actioned for a few weeks.&lt;/p&gt;
+
+&lt;h2 id='what_works_and_what_doesnt'&gt;What works and what doesn’t?&lt;/h2&gt;
+
+&lt;p&gt;The trial of Greenhopper has been great. The trial has identified a few things that work well, and some that don’t. So what works and what doesn’t?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It’s difficult to raise new cards at stand up. It’s a change to our regular process of raising cards at stand up, as we have to create and edit cards before or after stand up. However this has minimised interruptions during stand up, allowing the team to focus on stand up.&lt;/li&gt;
+
+&lt;li&gt;We are able to raise cards wherever we have access to a web browser and we are not constrained to being in the office.&lt;/li&gt;
+
+&lt;li&gt;For a few of the stand ups we didn’t have access to the Smart Board and used a projector instead. It felt awkward. Having physical interaction with the card wall definitely enhances the experience. It feels natural for the team to huddle around the card wall, rather than a computer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='whats_next'&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;So what’s next for the Site Operations Greenhopper integration?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First up is to trial the system to the global operations teams with a possible change to our stand up time to a more sensible hour for our European colleagues.&lt;/li&gt;
+
+&lt;li&gt;Next is to increase transparency into Site Operations current work load. To achieve this we will look into publishing a read-only card wall to the wider company.&lt;/li&gt;
+
+&lt;li&gt;Start planning work for iterations. We didn’t plan beyond one week during the trail, but we are collecting data on how long cards are taking to cycle through our system.&lt;/li&gt;
+
+&lt;li&gt;Estimating card size again. Based on  the data collected we should be able to reliably estimate work and compare that to the actual durations.&lt;/li&gt;
+
+&lt;li&gt;Customise Jira to suit the work flow in Site Operations, including incident management and deployments. This will be an evolutionary process, with an aim to try and keep the work flow as light as possible.&lt;/li&gt;
+
+&lt;li&gt;The final goal is to investigate integration with other operations systems, such as ZenDesk and Nagios. This would minimise the amount of duplicated for and streamline our work flow.&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops Meetup Match Maker</title>
+   <link href="http://www.geekle.id.au/2011/02/devops-meetup-match-maker.html"/>
+   <updated>2011-02-05T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2011/02/devops-meetup-match-maker</id>
+   <content type="html">&lt;p&gt;In the DevOps Survey 2010 I asked if participants attended a DevOps meetup and if they were interested in a local meetup.&lt;/p&gt;
+
+&lt;p&gt;141 people indicated that they haven&amp;#8217;t attend a local meetup, with majority of them indicating a preferred location. Being an anonymous survey, it makes it difficult to match up people that indicated the same location.&lt;/p&gt;
+
+&lt;p&gt;If you want to be added to the list, get in touch with me via the e-mail or &lt;a href='http://twitter.com/geekle'&gt;Twitter&lt;/a&gt;Twitter and provide your contact details and I will update the list. Even if you didn&amp;#8217;t participate in the survey, feel free to contact me with your details and location and I will add them.&lt;/p&gt;
+
+&lt;p&gt;Also, if you already attend a DevOps meetup, flick me the official website/twitter account and I will add it to the list.&lt;/p&gt;
+
+&lt;h2 id='australia'&gt;Australia&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Melbourne, VIC, Australia&lt;/li&gt;
+
+&lt;li&gt;Wollongong, NSW, Australia&lt;/li&gt;
+
+&lt;li&gt;Brisbane, QLD, Australia&lt;/li&gt;
+
+&lt;li&gt;Sydney, NSW, Australia&lt;/li&gt;
+
+&lt;li&gt;Adelaide, SA, Australia&lt;/li&gt;
+
+&lt;li&gt;Canberra, ACT, Australia&lt;/li&gt;
+
+&lt;li&gt;Perth, WA, Australia&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='belgium'&gt;Belgium&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Brussels, Belgium&lt;/li&gt;
+
+&lt;li&gt;Antwerp, Belgium&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='brazil'&gt;Brazil&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Recife, Pernambuco, Brazil&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='czech_republic'&gt;Czech Republic&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Prague, Czech Republic&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='egypt'&gt;Egypt&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Alexandria-Cairo, Egypt&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='france'&gt;France&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Paris, France&lt;/li&gt;
+
+&lt;li&gt;Brest, Finistère, France&lt;/li&gt;
+
+&lt;li&gt;Marseille, PACA, France&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='germany'&gt;Germany&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Berlin, Berlin, Germany&lt;/li&gt;
+
+&lt;li&gt;Cologne, NRW, Germany&lt;/li&gt;
+
+&lt;li&gt;Hamburg, Germany&lt;/li&gt;
+
+&lt;li&gt;Stuttgart, Baden-Wuerttemberg, Germany&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='greece'&gt;Greece&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Thessaloniki, Greece&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='india'&gt;India&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Bangalore, Karnataka, India&lt;/li&gt;
+
+&lt;li&gt;Hyderabad, AP, India&lt;/li&gt;
+
+&lt;li&gt;Mumbai, Maharashtra, India&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='ireland'&gt;Ireland&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Waterford, Munster, Ireland&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='israel'&gt;Israel&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Herzliya, Israel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='japan'&gt;Japan&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Kobe, Hyogo, Japan&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='norway'&gt;Norway&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Oslo, Norway&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='netherlands'&gt;Netherlands&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Amsterdam, Netherlands&lt;/li&gt;
+
+&lt;li&gt;Utrecht, Netherlands&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='norway'&gt;Norway&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Bergen, Norway&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='philippines'&gt;Philippines&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Metro, Manila, Philippines&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='portugal'&gt;Portugal&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Porto, Portugal&lt;/li&gt;
+
+&lt;li&gt;Faro, Portugal&lt;/li&gt;
+
+&lt;li&gt;Lisbon, Portugal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='puerto_rico'&gt;Puerto Rico&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;San Juan, Puerto Rico&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='romania'&gt;Romania&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Bucharest, Bucharest, Romania&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='south_africa'&gt;South Africa&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Cape Town, Western Cape, South Africa&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='sweden'&gt;Sweden&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Stockholm, Sweden&lt;/li&gt;
+
+&lt;li&gt;Goteborg, Sweden&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='switzerland'&gt;Switzerland&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;No city&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='united_kingdom'&gt;United Kingdom&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;London, London, United, Kingdom&lt;/li&gt;
+
+&lt;li&gt;Bristol, United Kingdom&lt;/li&gt;
+
+&lt;li&gt;Edinburgh, United Kingdom&lt;/li&gt;
+
+&lt;li&gt;Sheffield, South Yorkshire, United Kingdom&lt;/li&gt;
+
+&lt;li&gt;Oxford, United Kingdom&lt;/li&gt;
+
+&lt;li&gt;York, United Kingdom&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id='united_states'&gt;United States&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;San Francisco, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Atlanta, GA, United States&lt;/li&gt;
+
+&lt;li&gt;Austin, TX, United States&lt;/li&gt;
+
+&lt;li&gt;Los Angeles, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Seattle, WA, United States&lt;/li&gt;
+
+&lt;li&gt;Washington, DC, United States&lt;/li&gt;
+
+&lt;li&gt;Baltimore, MD, United States&lt;/li&gt;
+
+&lt;li&gt;Birmingham, AL, United States&lt;/li&gt;
+
+&lt;li&gt;Boston, MA, United States&lt;/li&gt;
+
+&lt;li&gt;Brooklyn, NY, United States&lt;/li&gt;
+
+&lt;li&gt;Champaign, IL, United States&lt;/li&gt;
+
+&lt;li&gt;Cleveland, OH, United States&lt;/li&gt;
+
+&lt;li&gt;Dallas, TX, United States&lt;/li&gt;
+
+&lt;li&gt;Edison, NJ, United States&lt;/li&gt;
+
+&lt;li&gt;Green Bay, WI, United States&lt;/li&gt;
+
+&lt;li&gt;Minneapolis, MN, United States&lt;/li&gt;
+
+&lt;li&gt;Nashville, TN, United States&lt;/li&gt;
+
+&lt;li&gt;New, York, NY, United States&lt;/li&gt;
+
+&lt;li&gt;Philadelphia, PA, United States&lt;/li&gt;
+
+&lt;li&gt;Phoenix, AZ, United States&lt;/li&gt;
+
+&lt;li&gt;Pittsburgh, PA, United States&lt;/li&gt;
+
+&lt;li&gt;Providence, RI, United States&lt;/li&gt;
+
+&lt;li&gt;Raleigh, NC, United States&lt;/li&gt;
+
+&lt;li&gt;Redwood City, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Sacramento, CA, United States&lt;/li&gt;
+
+&lt;li&gt;San Angelo, TX, United States&lt;/li&gt;
+
+&lt;li&gt;Santa Cruz, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Silicon Valley, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Siloam Springs, AR, United States&lt;/li&gt;
+
+&lt;li&gt;Sunnyvale, CA, United States&lt;/li&gt;
+
+&lt;li&gt;Tucson, AZ, United States&lt;/li&gt;
+
+&lt;li&gt;Twin Cities, MN, United States&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops Survey 2010 Results</title>
+   <link href="http://www.geekle.id.au/2011/01/devops-survey-2010-results.html"/>
+   <updated>2011-01-29T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2011/01/devops-survey-2010-results</id>
+   <content type="html">The DevOps Survey 2010 results are in!&lt;br /&gt;
+&lt;br /&gt;
+Thank you again to all the contributed.&lt;br /&gt;
+The response was&amp;nbsp;impressive&amp;nbsp;with 220 people responding over the month the survey was open.&lt;br /&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/_bzxCpMXxtYI/TUOyqNvc5BI/AAAAAAAAAzQ/rYFGm_S14Wk/s1600/chart.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/_bzxCpMXxtYI/TUOyqNvc5BI/AAAAAAAAAzQ/rYFGm_S14Wk/s1600/chart.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;I plan to do this all again later in the year, but with the knowledge that I didn't have last year.&lt;br /&gt;
+&lt;br /&gt;
+Please &lt;a href=&quot;http://www.geekle.id.au/p/contact.html&quot;&gt;contact me&lt;/a&gt; if you have any questions or comments regarding the DevOps Survey 2010.&lt;br /&gt;
+&lt;br /&gt;
+If you wish jump directly to a section of the results, use the anchors below:&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#aboutyou&quot;&gt;About You&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#personalbrand&quot;&gt;Personal Brand/Development&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#currentworkplace&quot;&gt;Current Workplace&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#devopsintheworkplace&quot;&gt;DevOps In The Workplace&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#agileintheworkplace&quot;&gt;Agile In The Workplace&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#youanddevops&quot;&gt;You And DevOps&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html#devopsandissues&quot;&gt;DevOps And Issues&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Results after the jump...&lt;br /&gt;
+&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; id=&quot;aboutyou&quot; style=&quot;font-size: x-large;&quot;&gt;About you&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: large;&quot;&gt;Age&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart2&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=C2%3AD5&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;backgroundColor&quot;:&quot;#ffffff&quot;,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;width&quot;:500,&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;hasLabelsColumn&quot;:true,&quot;title&quot;:&quot;&quot;,&quot;height&quot;:250,&quot;chf&quot;:&quot;bg,s,ffffff&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: large;&quot;&gt;Gender&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart3&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=E2%3AF4&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;214 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: large;&quot;&gt;Country&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart1&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=A1%3AB28&amp;gid=0&amp;transpose=0&amp;headers=1&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;reverseCategories&quot;:false,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;width&quot;:500,&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;logScale&quot;:false,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;height&quot;:250,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;reverseAxis&quot;:false,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;220 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;What is your current position/title?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart4&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=G2%3AH26&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: large;&quot;&gt;If other, please enter your current position/title&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart5&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=I2%3AJ40&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;46 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: x-large;&quot;&gt;Education&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: inherit; font-size: large;&quot;&gt;What is your highest level of education?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart6&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=K2%3AL8&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How relevant is your education for work?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;BarChart&quot;,&quot;chartName&quot;:&quot;Chart7&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=M2%3AN6&amp;gid=0&amp;transpose=1&amp;headers=1&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:false,&quot;hasLabelsColumn&quot;:false,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;isStacked&quot;:false,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;personalbrand&quot; style=&quot;font-size: x-large;&quot;&gt;Personal Brand/Development&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do you have a personal site or blog?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart8&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=O2%3AP4&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How long has your personal site or blog been online for?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart9&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=Q2%3AR14&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:false,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;213 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Have you been to any of the following conferences this year?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart10&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=S2%3AT55&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;220 responses&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;(109 attending a conference)&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How long have you been working in the industry?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart11&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=U2%3AV12&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;nonGeoMapColors&quot;:[&quot;#999999&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;,&quot;#0b5394&quot;],&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#999999&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;,&quot;#0b5394&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How excited are you by the IT industry?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;BarChart&quot;,&quot;chartName&quot;:&quot;Chart12&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=W2%3AX6&amp;gid=0&amp;transpose=1&amp;headers=1&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:false,&quot;hasLabelsColumn&quot;:false,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;currentworkplace&quot; style=&quot;font-size: x-large;&quot;&gt;Current Workplace&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;What is your current organisations industry?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart13&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=Y2%3AZ35&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;208 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;What type of organisation is it?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart14&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AA2%3AAB8&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How many people does your organisation employ?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart15&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AC2%3AAD11&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How many hours do you work per week?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart16&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AE2%3AAF8&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How many years have you been at your current organisation?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart17&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AG2%3AAH13&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;How many years have you been in your current position?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart18&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AI2%3AAJ12&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;devopsintheworkplace&quot; style=&quot;font-size: x-large;&quot;&gt;DevOps In The Workplace&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do you practice DevOps in your workplace?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart19&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AK2%3AAL3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do colleagues practice DevOps in your workplace?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart20&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AM2%3AAN3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Are your managers aware of DevOps?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart21&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AO2%3AAP3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;216 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Is the practice of DevOps supported by the organisation?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart22&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AQ2%3AAR3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Is the practice of DevOps encouraged by the organisation?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart23&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AS2%3AAT3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do you think DevOps is a role?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart24&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AU2%3AAV3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;agileintheworkplace&quot; style=&quot;font-size: x-large;&quot;&gt;Agile In The Workplace&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do you practice Agile software development in your workplace?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart25&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AW2%3AAX3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;215 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do colleagues practice Agile software development in your workplace?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart26&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=AY2%3AAZ3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;216 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Are your managers aware of Agile software development?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart27&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BA2%3ABB3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;216 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Is the practice of Agile software development supported by the organisation?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart28&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BC2%3ABD3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;213 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Is the practice of Agile software development encouraged by the organisation?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart29&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BE2%3ABF3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Do you think Agile is a role?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart30&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BG2%3ABH3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;218 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;youanddevops&quot; style=&quot;font-size: x-large;&quot;&gt;You and DevOps&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Who do you identify yourself with?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart31&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BI2%3ABJ5&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;217 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Where did you first hear about DevOps?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart32&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BK2%3ABL12&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;220 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;When did you first hear about DevOps?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart33&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BM2%3ABN6&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Did you practise DevOps before it was called &quot;DevOps&quot;?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart34&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BO2%3ABP3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Have you been to a DevOps meet up?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart35&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BQ2%3ABR3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;219 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;If not, would you like a local DevOps meet up?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;PieChart&quot;,&quot;chartName&quot;:&quot;Chart36&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BS2%3ABT3&amp;gid=0&amp;transpose=0&amp;headers=0&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:true,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: x-small;&quot;&gt;176 responses&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; id=&quot;devopsandissues&quot; style=&quot;font-size: x-large;&quot;&gt;DevOps and Issues&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;Does DevOps address the following issues?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;AreaChart&quot;,&quot;chartName&quot;:&quot;Chart37&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=BU1%3ACE6&amp;gid=0&amp;transpose=0&amp;headers=1&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;reverseCategories&quot;:false,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:false,&quot;logScale&quot;:false,&quot;hasLabelsColumn&quot;:true,&quot;wmode&quot;:&quot;opaque&quot;,&quot;title&quot;:&quot;&quot;,&quot;legend&quot;:&quot;right&quot;,&quot;allowCollapse&quot;:true,&quot;reverseAxis&quot;:false,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;199 responses - Technology&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;201 responses - Business Process&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;201 responses - Communication&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;197 responses - Organisational Structure&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;201 responses - Development Environments&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;202 responses - Operations Environments&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;201 responses - Agile Integration&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;201 responses - Quality Assurance&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;200 responses - Security&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;199 responses - Cost&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: large;&quot;&gt;What are the biggest issues facing DevOps at the moment?&lt;/span&gt;&lt;br /&gt;
+&lt;script src=&quot;//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js&quot; type=&quot;text/javascript&quot;&gt;
+ {&quot;chartType&quot;:&quot;AreaChart&quot;,&quot;chartName&quot;:&quot;Chart38&quot;,&quot;dataSourceUrl&quot;:&quot;//spreadsheets0.google.com/a/geekle.id.au/tq?key=0As_wixVWjrh3dEJkdWF0cWpWN1drNERwZnA4RlJTT2c&amp;range=CF1%3ACR6&amp;gid=0&amp;transpose=0&amp;headers=1&amp;pub=1&quot;,&quot;options&quot;:{&quot;displayAnnotations&quot;:true,&quot;showTip&quot;:true,&quot;dataMode&quot;:&quot;markers&quot;,&quot;maxAlternation&quot;:1,&quot;pointSize&quot;:&quot;0&quot;,&quot;colors&quot;:[&quot;#3366CC&quot;,&quot;#DC3912&quot;,&quot;#FF9900&quot;,&quot;#109618&quot;,&quot;#990099&quot;,&quot;#0099C6&quot;,&quot;#DD4477&quot;,&quot;#66AA00&quot;,&quot;#B82E2E&quot;,&quot;#316395&quot;],&quot;smoothLine&quot;:false,&quot;lineWidth&quot;:&quot;2&quot;,&quot;labelPosition&quot;:&quot;right&quot;,&quot;is3D&quot;:false,&quot;hasLabelsColumn&quot;:false,&quot;wmode&quot;:&quot;opaque&quot;,&quot;allowCollapse&quot;:true,&quot;isStacked&quot;:false,&quot;mapType&quot;:&quot;hybrid&quot;,&quot;width&quot;:500,&quot;height&quot;:250},&quot;refreshInterval&quot;:5} 
+&lt;/script&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;197 responses - Management Support&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;192 responses - Too Dev Focused&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;195 responses - Too Ops Focused&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;196 responses - Dilution / Bastardisation of the Term &quot;DevOps&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;195 responses - Organisational Structure&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;194 responses - Agile Integration&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;195 responses - Technology&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;197 responses - Business Processes&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;197 responses - Communication&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;195 responses - Quality Assurance&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;194 responses - Security&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: xx-small;&quot;&gt;195 responses - Cost&lt;/span&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops Survey 2010</title>
+   <link href="http://www.geekle.id.au/2010/12/devops-survey-2010.html"/>
+   <updated>2010-12-06T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2010/12/devops-survey-2010</id>
+   <content type="html">&lt;p&gt;
+This survey was created to build a better picture of DevOps in it's current state.&lt;/p&gt;
+&lt;p&gt;
+By no means is this a comprehensive survey, but my aim is to capture the current audience and identify the next steps we need to take as a community.&lt;/p&gt;
+&lt;p&gt;
+The survey will close 4th January 2011, just after the holiday season.&lt;/p&gt;
+&lt;p&gt;
+I plan to release the findings of this survey late January 2011.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://goo.gl/BJc6d&quot;&gt;Take the DevOps Survey 2010!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Updates:&lt;/b&gt;&lt;br /&gt;
+06/12 - Thanks to &lt;a href=&quot;http://twitter.com/benjammingh&quot;&gt;@benjammingh&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/jpluscplusm&quot;&gt;@jpluscplusm&lt;/a&gt; for the feedback.&lt;br /&gt;
+04/01 - The DevOps Survey 2010 is now closed. Thanks to all that responded.&lt;br /&gt;
+29/01 - The &lt;a href=&quot;http://www.geekle.id.au/2011/01/devops-survey-2010-results.html&quot;&gt;DevOps Survey 2010 results&lt;/a&gt; are out.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Goodbye Itree</title>
+   <link href="http://www.geekle.id.au/2010/11/goodbye-itree.html"/>
+   <updated>2010-11-12T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2010/11/goodbye-itree</id>
+   <content type="html">&lt;p&gt;Today is my last day at Itree.&lt;/p&gt;
+
+&lt;p&gt;After working at Itree for nearly 4 years (6 if you count casual work), the decision to leave has been one of the hardest to make, but I feel the time has come for me to move on to new challenges.&lt;/p&gt;
+
+&lt;p&gt;While at Itree I have worked with a lot of smart and motivated people, on some awesome projects and gained loads of experience.&lt;/p&gt;
+
+&lt;p&gt;So what is next for me? On Monday I start contracting as a Unix/Linux Systems Engineer for 6 months, working on a multi-million dollar project that I&amp;#8217;ve been following with great interest.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Enter Stage Right</title>
+   <link href="http://www.geekle.id.au/2010/10/enter-stage-right-devops.html"/>
+   <updated>2010-10-30T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2010/10/enter-stage-right-devops</id>
+   <content type="html">&lt;p&gt;I have worked in environments where reacting was the &amp;#8220;normal&amp;#8221; way to approach issues and being proactive was just a waste of time&amp;#8230; &lt;em&gt;facepalm&lt;/em&gt; The seemingly simple idea of changing the workplace culture from reactive to proactive was hard to pitch, let alone implement on my own.&lt;/p&gt;
+
+&lt;p&gt;18 months ago, I knew there was a better way of doing things and I was determined to find something. I had been watching developers implement Agile Development processes with great envy and I was starting to see concepts that would have great outcomes if adopted in a traditional operations environment.&lt;/p&gt;
+
+&lt;p&gt;Finally having something tangible to explore I started looking into Agile Operations, which led me DevOps. Lurking in the shadows for a while, I digested as much as I could of the DevOps movement. I thought it was  time to talk to some of the developers and get them on board.&lt;/p&gt;
+
+&lt;p&gt;6 months on and here we are&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So what is DevOps to me?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id='ideology'&gt;Ideology&lt;/h2&gt;
+
+&lt;p&gt;DevOps is a way of thinking and acting. It is not a toolkit, but is something we all can practice everyday. Adam Jacob is spot on with his Velocity 2010 talk, DevOps is an inclusive movement and I believe this includes developers, operations and management.&lt;/p&gt;
+
+&lt;h2 id='business_problem'&gt;Business Problem&lt;/h2&gt;
+
+&lt;p&gt;Although it has stemmed from the trenches of development and operations theatres, DevOps is very much a business problem. It needs to be supported by the business to be successful, otherwise we end up with &amp;#8220;Black Ops&amp;#8221; style DevOps and no one benefits.&lt;/p&gt;
+
+&lt;p&gt;Stakeholders may point out that DevOps addresses some of these business problems with technical solutions, but DevOps is still a business problem.&lt;/p&gt;
+
+&lt;h2 id='not_a_role'&gt;Not A Role&lt;/h2&gt;
+
+&lt;p&gt;You can&amp;#8217;t be a DevOp, but you can practice DevOps in your role.&lt;/p&gt;
+
+&lt;p&gt;In contrast, I believe that in the next couple of years we will see businesses creating roles that were traditionally filled by either developers or system administrators. These roles will filled be the masters of DevOps-fu, but not a &amp;#8220;DevOp&amp;#8221;.&lt;/p&gt;
+
+&lt;h2 id='catalyst_for_change'&gt;Catalyst For Change&lt;/h2&gt;
+
+&lt;p&gt;The IT industry is due for a much needed shake up and DevOps has provided a catalyst for this change.&lt;/p&gt;
+
+&lt;p&gt;Embrace change, don&amp;#8217;t fight it.&lt;/p&gt;
+
+&lt;p&gt;DevOps has presented an opportunity for IT professionals to identify the fundamental issues in the way business is run today and change them. We need to address this by becoming more adaptable and identifying business needs.&lt;/p&gt;
+
+&lt;p&gt;Ask yourself, is this providing value to the business?&lt;/p&gt;
+
+&lt;h2 id='cams'&gt;CAMS&lt;/h2&gt;
+
+&lt;p&gt;CAMS to me is the &amp;#8220;Howto guide&amp;#8221; of DevOps. Damon and John have hit the nail on the head with this one:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Culture&lt;/li&gt;
+
+&lt;li&gt;Automation&lt;/li&gt;
+
+&lt;li&gt;Metrics&lt;/li&gt;
+
+&lt;li&gt;Sharing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By implementing these four areas, regardless if you are trying to achieve a DevOps nirvana, you will see a greater response to change within the organisation.&lt;/p&gt;
+
+&lt;p&gt;I have found CAMS to be the easiest way to for people new to the DevOps scene to understand what it&amp;#8217;s all about.&lt;/p&gt;
+
+&lt;h2 id='so_what_is_next'&gt;So What Is Next?&lt;/h2&gt;
+
+&lt;p&gt;Spread the word! Get DevOps out there.&lt;/p&gt;
+
+&lt;p&gt;The response to DevOps from sysadmins has been amazing, but we need to get other key influencers from within business on board. We need to start promoting/evangelising DevOps to developers, managers, directors, VPs and C-level executives too.&lt;/p&gt;
+
+&lt;h3 id='sysadmins'&gt;Sysadmins&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Get together and piggy back a local developer user group meet up (Java, Ruby, Python etc.)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Talk to developers at work and ask them what you can do to help.&lt;/p&gt;
+
+&lt;h3 id='devs'&gt;Devs&lt;/h3&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Gatecrash a user group that is traditionally full of operations folk (Linux, Puppet, Chef etc.)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Ask your operations team what you could do to make their lives easier.&lt;/p&gt;
+
+&lt;h3 id='everyone'&gt;Everyone&lt;/h3&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Run a internal DevOps meet up at your workplace. Invite your manager.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Find a DevOps meet up in your area.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='further_reading'&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;10+ Deploys Per Day: Dev and Ops Cooperation at Flickr - John Allspaw and Paul Hammond. Agile Web Operations - Matthias Marschall and Dan Ackerson What DevOps Means To Me - James Turnbull What Is This DevOps Thing Anyway? - Patrick Debois What DevOps Means To Me - John Willis Velocity 2010 - Adam Jacob on DevOps - Adam Jacob What Is DevOps? - Damon Edwards No Operations Team Left Behind - Where DevOps Misses The Mark - John Vincent The Rise of DevOps - Dmitriy Samovskiy The Future of Corporate IT - CEB&lt;/p&gt;
+
+&lt;p&gt;If any of the links are broken, please contact me.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Devops Presentation Debrief</title>
+   <link href="http://www.geekle.id.au/2010/10/devops-presentation.html"/>
+   <updated>2010-10-25T00:00:00+11:00</updated>
+   <id>http://www.geekle.id.au/2010/10/devops-presentation</id>
+   <content type="html">&lt;p&gt;Last month, I presented DevOps to the folks at work. After speaking with Damon and John from the DevOps Cafe about it, they convinced me to put it up. I have finally got around to posting the slide deck and my recap of the whole presentation. I also did this impromptu talk at the Sydney DevOps meetup in October (Thanks Mick). The whole DevOps philosophy was well received, but CAMS really hit home with the audience.&lt;/p&gt;
+
+&lt;h2 id='culture'&gt;Culture&lt;/h2&gt;
+
+&lt;p&gt;I think this was the hardest one to push&amp;#8230; trying to break habits is hard, but we are getting there. Simply changing the attitude among a few developers has had great results and they can really see a positive change. I have developers interested in issues that were traditionally “my problem”. I think persistence is the key with this one and sadly I think the whole industry needs a culture change.&lt;/p&gt;
+
+&lt;h2 id='automation'&gt;Automation&lt;/h2&gt;
+
+&lt;p&gt;Being mostly developers in attendance the ideas of automation really got them excited, so much so I talked to a few of the developers afterwards about some future ideas for automation in the development, test and production cycles. Internally, I am developing a continuous deployment system that auto-deploys the latest code changes to our environments. New to them, not so much to the DevOps world. However the spin on this for us is we are also integrating our metrics and automated tests.&lt;/p&gt;
+
+&lt;h2 id='metrics'&gt;Metrics&lt;/h2&gt;
+
+&lt;p&gt;Although I have raised this topic with the team before, there was still a still a high level of interest. The difference this time that I demonstrated that metrics can provide an invaluable insight into live environments by showing them two simple graphs of Tomcat hits and the server’s bandwidth.&lt;/p&gt;
+
+&lt;h2 id='sharing'&gt;Sharing&lt;/h2&gt;
+
+&lt;p&gt;I really believe that sharing has a great position in the whole CAMS idea&amp;#8230; It allows the culture, automation and metrics to be all tied together and this was well received among the audience. I was trying to debunk the fear of sharing information, tools or processes, results in being made redundant. Sharing ideas, dashboards, shell accounts etc. actually improves your work and employability.&lt;/p&gt;
+
+&lt;h2 id='devops_life_cycle'&gt;DevOps Life Cycle&lt;/h2&gt;
+
+&lt;p&gt;Tying all this together I went through a “DevOps Life Cycle” (a spin on  the SDLC) explaining how DevOps can really support the business and our customers. I had some good feedback on this, as I showed how the concepts of DevOps could be applied within projects.&lt;/p&gt;
+
+&lt;h2 id='question_time'&gt;Question Time&lt;/h2&gt;
+
+&lt;p&gt;Wrapping up I had a few questions. I had the typical “How can this be used in my project” questions, which were interesting because our large clients host our software with outsourced IT services companies, so it also raised the question on how DevOps applies to such cases.&lt;/p&gt;
+
+&lt;h2 id='follow_up'&gt;Follow Up&lt;/h2&gt;
+
+&lt;p&gt;One of the directors missed the presentation and reviewed it over the weekend and chased me up for a chat. He was specifically interested in the idea of metrics, and the revival of non-functional requirements for our software projects because NFRs are usually “out of scope”. He could really see the business benefit of DevOps, something I found quite refreshing.&lt;/p&gt;
+
+&lt;h2 id='the_presentation'&gt;The Presentation&lt;/h2&gt;
+&lt;iframe marginheight='0' height='355' width='425' frameborder='0' marginwidth='0' src='http://www.slideshare.net/slideshow/embed_code/5348895' scrolling='no'&gt;&lt;a href='http://www.slideshare.net/geekle/devops-5348895'&gt;View on Slideshare&lt;/a&gt;&lt;/iframe&gt;</content>
+ </entry>
+ 
+ 
+</feed>
